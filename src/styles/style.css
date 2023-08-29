@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 header {
     padding: 25px;
 }
@@ -20,6 +26,10 @@ li {
     cursor: pointer;
 }
 
+#content {
+    flex: 1;
+}
+
 h1 {
     text-align: center;
 }
@@ -33,4 +43,9 @@ img {
 p {
     margin-top: 60px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
 }
