@@ -8,10 +8,15 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-image: url('../assets/restaurant.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     padding: 25px;
+    background: white;
 }
 
 ul {
@@ -28,6 +33,9 @@ li {
 
 #content {
     flex: 1;
+    
+    height: 100%;
+    
 }
 
 h1 {
@@ -48,4 +56,5 @@ p {
 footer {
     text-align: center;
     padding: 25px;
+    background: white;
 }
