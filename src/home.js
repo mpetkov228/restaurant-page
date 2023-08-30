@@ -1,12 +1,26 @@
+function createElement(type, options) {
+    const element = document.createElement(type);
+
+    if (options.content) {
+        element.textContent = options.content;
+    }
+
+    if (options.classes) {
+        element.classList.add(...options.classes);
+    }
+
+    return element;
+}
+
 export function loadHome(contentDiv) {
     contentDiv.replaceChildren();
 
-    const div = document.createElement('div');
-    div.classList.add('container');
+    const div = createElement('div', { classes: ['container'] });
 
-    const h1 = document.createElement('h1');
-    h1.textContent = 'Micky\'s Burgers';
-    h1.classList.add('content-heading');
+    const h1 = createElement('h1', {
+        content: 'Micky\'s Burgers',
+        classes: ['content-heading'],
+    });
 
     const hours = document.createElement('div');
     hours.classList.add('content-info');
