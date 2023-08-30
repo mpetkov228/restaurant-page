@@ -9,7 +9,7 @@ export function loadHome(contentDiv) {
     h1.classList.add('content-heading');
 
     const hours = document.createElement('div');
-    hours.classList.add('content-hours');
+    hours.classList.add('content-info');
 
     const h2 = document.createElement('h2');
     h2.textContent = 'Hours';
@@ -42,9 +42,21 @@ export function loadHome(contentDiv) {
     const sunday = document.createElement('p');
     sunday.textContent = 'Sunday: 8am - 10pm';
     hours.appendChild(sunday);
+    
+    const location = document.createElement('div');
+    location.classList.add('content-info');
+
+    const locationH2 = document.createElement('h2');
+    locationH2.textContent = 'Location';
+    location.appendChild(locationH2);
+
+    const locationP = document.createElement('p');
+    locationP.textContent = '601 N 7th St, Sacramento, California';
+    location.appendChild(locationP);
 
     div.appendChild(h1);
     div.appendChild(hours);
+    div.appendChild(location);
 
     contentDiv.appendChild(div);
 }
