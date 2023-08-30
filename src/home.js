@@ -36,11 +36,11 @@ export function loadHome(contentDiv) {
     hours.appendChild(friday);
 
     const saturday = document.createElement('p');
-    saturday.textContent = 'Saturday: 8am - 10pm';
+    saturday.textContent = 'Saturday: 10am - 10pm';
     hours.appendChild(saturday);
 
     const sunday = document.createElement('p');
-    sunday.textContent = 'Sunday: 8am - 10pm';
+    sunday.textContent = 'Sunday: 10am - 10pm';
     hours.appendChild(sunday);
     
     const location = document.createElement('div');
