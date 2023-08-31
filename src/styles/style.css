@@ -13,10 +13,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    padding: 20px;
+    padding: 0 20px;
     background: white;
     box-shadow: 1px 1px 1px gray;
     position:sticky;
@@ -27,12 +28,18 @@ ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
 }
 
 li {
     font-size: 24px;
     cursor: pointer;
+    padding: 20px;
+}
+
+.active {
+    background-color: black;
+    color: white;
 }
 
 #content {
@@ -91,6 +98,8 @@ p {
     margin-bottom: 10px;
     min-width: 100px;
     height: 238px;
+    object-fit: cover;
+
 }
 
 .credit-text {
