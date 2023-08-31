@@ -9,5 +9,9 @@ export function createElement(type, options) {
         element.classList.add(...options.classes);
     }
 
+    if (options.src) {
+        element.src = options.src;
+    }
+
     return element;
 }
