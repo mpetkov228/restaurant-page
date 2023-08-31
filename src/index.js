@@ -1,4 +1,4 @@
-import { loadHome } from './home.js';
+import { loadHome } from './pages/home';
 
 const home = document.getElementById('home');
 const menu = document.getElementById('menu');
