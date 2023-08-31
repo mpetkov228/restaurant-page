@@ -1,4 +1,5 @@
 import { loadHome } from './pages/home';
+import { loadMenu } from './pages/menu';
 
 const home = document.getElementById('home');
 const menu = document.getElementById('menu');
@@ -14,7 +15,7 @@ function homeHandler() {
 }
 
 function menuHandler() {
-
+    loadMenu(contentDiv);
 }
 
 function contactHandler() {

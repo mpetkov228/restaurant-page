@@ -1,18 +1,6 @@
+import { createElement } from "../utils/utils";
+
 const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-
-function createElement(type, options) {
-    const element = document.createElement(type);
-
-    if (options.content) {
-        element.textContent = options.content;
-    }
-
-    if (options.classes) {
-        element.classList.add(...options.classes);
-    }
-
-    return element;
-}
 
 export function loadHome(contentDiv) {
     contentDiv.replaceChildren();
