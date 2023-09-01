@@ -1,5 +1,11 @@
 import { createElement } from "../utils/utils";
 import cheeseburger from '/src/assets/burgers/cheeseburger.jpg';
+import doubleCheese from '/src/assets/burgers/double-cheese.jpg';
+import chicken from '/src/assets/burgers/fried-chicken.jpg';
+import veggie from '/src/assets/burgers/veggie.jpg';
+import clubSandwich from '/src/assets/burgers/club-sandwich.jpg';
+import fries from '/src/assets/sides/fries.jpg';
+import coleslaw from '/src/assets/sides/coleslaw.jpg';
 
 const burgers = [
     {
@@ -9,22 +15,22 @@ const burgers = [
     },
     {
         name: 'Double Cheeseburger',
-        src: '../src/assets/burgers/double-cheese.jpg',
+        src: doubleCheese,
         imgCredit: 'Photo by <a href="https://unsplash.com/@amir_v_ali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">amirali mirhashemian</a> on <a href="https://unsplash.com/photos/sc5sTPMrVfk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
     {
         name: 'Chicken Burger',
-        src: '../src/assets/burgers/fried-chicken.jpg',
+        src: chicken,
         imgCredit: 'Photo by <a href="https://unsplash.com/@sultan1274?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sultan Abdulrazzaq</a> on <a href="https://unsplash.com/photos/UDYjeBwFZf8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
     {
         name: 'Veggie Burger',
-        src: '../src/assets/burgers/veggie.jpg',
+        src: veggie,
         imgCredit: 'Photo by <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> on <a href="https://unsplash.com/photos/aDhU6A0IAbs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
     {
         name: 'Club Sandwich',
-        src: '../src/assets/burgers/club-sandwich.jpg',
+        src: clubSandwich,
         imgCredit: 'Photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mae Mu</a> on <a href="https://unsplash.com/photos/IZ0LRt1khgM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
 ];
@@ -32,12 +38,12 @@ const burgers = [
 const sides = [
     {
         name: 'French Fries',
-        src: '../src/assets/sides/fries.jpg',
+        src: fries,
         imgCredit: 'Photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Hansel</a> on <a href="https://unsplash.com/photos/vi0kZuoe0-8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
     {
         name: 'Coleslaw',
-        src: '../src/assets/sides/coleslaw.jpg',
+        src: coleslaw,
         imgCredit: 'Photo by <a href="https://pixabay.com/users/wow_pho-916237/">Wow_Pho</a> on <a href="https://pixabay.com/photos/appetizer-background-bowl-cabbage-1223853/">Pixabay</a>'
     }
 ];
