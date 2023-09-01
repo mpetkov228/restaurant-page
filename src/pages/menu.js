@@ -1,5 +1,5 @@
 import { createElement } from "../utils/utils";
-import cheeseburger from '../assets/burgers/cheeseburger.jpg';
+import cheeseburger from '/src/assets/burgers/cheeseburger.jpg';
 
 const burgers = [
     {
