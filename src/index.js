@@ -1,3 +1,4 @@
+import { loadContact } from './pages/contact';
 import { loadHome } from './pages/home';
 import { loadMenu } from './pages/menu';
 
@@ -24,7 +25,9 @@ function menuHandler() {
 }
 
 function contactHandler() {
-    
+    loadContact(contentDiv);
+    listItems.forEach(item => item.classList.remove('active'));
+    contact.classList.add('active');
 }
 
 homeHandler();
