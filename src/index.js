@@ -1,6 +1,7 @@
 import { loadContact } from './pages/contact';
 import { loadHome } from './pages/home';
 import { loadMenu } from './pages/menu';
+import './styles/style.css';
 
 const home = document.getElementById('home');
 const menu = document.getElementById('menu');
