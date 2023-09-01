@@ -1,9 +1,10 @@
 import { createElement } from "../utils/utils";
+import cheeseburger from '../assets/burgers/cheeseburger.jpg';
 
 const burgers = [
     {
         name: 'Cheeseburger',
-        src: '../src/assets/burgers/cheeseburger.jpg',
+        src: cheeseburger,
         imgCredit: 'Photo by <a href="https://unsplash.com/@phototastyfood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Food Photographer</a> on <a href="https://unsplash.com/photos/E94j3rMcxlw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
     },
     {
