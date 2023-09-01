@@ -110,6 +110,6 @@ p {
 footer {
     text-align: center;
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.753);
     border-top: 1px solid gray;
 }
